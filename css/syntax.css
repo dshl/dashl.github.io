@@ -1,0 +1,570 @@
+.highlight .c {
+ color: #336666;
+ font-style: normal;
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .cm {
+ color: #336666;
+ font-style: normal;
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .cp {
+ color: #336666;
+ font-style: normal;
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+/* ===[ Comment.Preproc ]=== */
+
+.highlight .cs {
+ color: #336666;
+ font-style: normal;
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .kc {
+ color: #0000aa
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .kd {
+ color: #cd950c
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .kp {
+ color: #0000aa
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .kr {
+ color: #0000aa
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .kt {
+ color: #0000aa
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+.highlight .gd {
+ color: #c2c2c2;
+ background-color: #ffdddd;
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .gd .x {
+ color: #c2c2c2;
+ background-color: #ffaaaa;
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .ge {
+ color: #c2c2c2;
+ font-style: italic;
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .gr {
+ color: #aa0000
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .gh {
+ color: #999999
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .gi {
+ color: #c2c2c2;
+ background-color: #ddffdd;
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .gi .x {
+ color: #c2c2c2;
+ background-color: #aaffaa;
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .go {
+ color: #888888
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .gp {
+ color: #555555
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .gs {
+ font-weight: bold
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .gu {
+ color: #aaaaaa
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .gt {
+ color: #aa0000
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .m {
+ color: #008080
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .mf {
+ color: #008080
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .mh {
+ color: #008080
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .mo {
+ color: #008080
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .il {
+ color: #008080
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .sb {
+ color: #008080
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .sc {
+ color: #008080
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .sd {
+ color: #008080
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .s2 {
+ color: #008080
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .se {
+ color: #008080
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .sh {
+ color: #008080
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .si {
+ color: #008080
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .sx {
+ color: #008080
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .sr {
+ color: #008080
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .s1 {
+ color: #008080
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .na {
+ color: #008080
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .nc {
+ color: #445588;
+ font-weight: bold;
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .no {
+ color: #d1d9e1 !important
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .ni {
+ color: #800080
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .ne {
+ color: #990000;
+ font-weight: bold;
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .nn {
+ color: #555555
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .nt {
+ color: #000080
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .bp {
+ color: #999999
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .vc {
+ color: #008080
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .vg {
+ color: #008080
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .vi {
+ color: #008080
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .ow {
+ color: #444;
+ font-weight: bold;
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+.highlight .w {
+ color: #555
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .ss {
+ color: #a5f !important
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+
+.highlight .c1 {
+ color: #999 !important;
+ font-style: normal;
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+/* ===[ Comment.Single ]=== */
+
+.highlight .mi {
+ color: #29b
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+/* CHRIS: Literal.Number.Integer
+   ================================================== */
+
+.highlight .s {
+ color: #29b !important
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+/* CHRIS: Literal.String
+   ================================================== */
+
+.highlight .nb {
+ color: #07d !important
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+/* CHRIS: clojure funcs
+   ================================================== */
+
+.highlight .nf {
+ color: #07d !important;
+ font-weight: normal !important;
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+/* CHRIS: function names
+   ================================================== */
+
+.highlight .nv {
+ color: #555 !important
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+/* CHRIS: clojure vars
+   ================================================== */
+
+.highlight .kd {
+ color: #07d !important
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+/* CHRIS: clojure vars
+   ================================================== */
+
+.highlight .o {
+ color: #777 !important
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+/* CHRIS: . and #
+   ================================================== */
+
+.highlight .p {
+ color: #777
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+/* paren  */
+
+.highlight .k {
+ color: #07d !important
+}
+
+some_nowhitespace {
+ nowhitespace: afterproperty
+}
+
+/* CHRIS: clojure special forms
+   ================================================== */

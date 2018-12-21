@@ -1,0 +1,250 @@
+@import url("fonts.googleapis.com/css?family=Raleway: 600");
+
+body {
+    /* background:rgba(0, 4, 18, 0.84); */
+    font-family: "Open Sans","Raleway", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size:50px;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+    overflow-y:auto;
+    margin:0;
+    padding:0
+}
+.console-wrapper {
+    position:relative;
+    width:100%
+}
+.console {
+    position:absolute;
+    bottom:115px;
+    left:55px;
+    padding-right:90px;
+   /* max-width:760px; */
+    line-height:70px
+}
+.console span {
+    position:relative;
+    /* color:#ecefea; */
+    color: #4e4e4e;
+    display:none
+}
+
+/* .main-text {
+  color: #4e4e4e;
+} */
+
+.console span::selection
+   {
+      /* background: #f4f7f2;*/
+       text-shadow: none;
+   }
+.console span.placeholder {
+    color:#ecefea;
+    display:block;
+    -webkit-animation:placeholder-intro .5s;
+    animation:placeholder-intro .5s;
+    -webkit-animation-fill-mode:backwards;
+    animation-fill-mode:backwards;
+    -webkit-animation-delay:.4s;
+    animation-delay:.4s
+}
+.console span.show {
+    display:inline;
+    -webkit-animation:word-animate-in .7s;
+    animation:word-animate-in .7s
+}
+.console span::-moz-selection {
+    background:#66419e;
+    color:#fdbcb8
+}
+.console span::selection {
+    /* background:#66419e;
+    color:#fdbcb8 */
+}
+.console .console--cursor {
+    position:relative;
+    width:4px;
+    height:65px;
+    display:inline-block;
+    margin-bottom:-13px;
+    z-index:2
+}
+.console .console--cursor.intro {
+    position:absolute;
+    left:-7px;
+    top:9px;
+    -webkit-animation:cursor-intro .8s cubic-bezier(0.77, 0, .175, 1);
+    animation:cursor-intro .8s cubic-bezier(0.77, 0, .175, 1)
+}
+.console .console--cursor .inner {
+    -webkit-animation:cursor-animation .5s infinite;
+    animation:cursor-animation .5s infinite;
+    position:absolute;
+    display:block;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    /*background:#ff5852*/
+    background:rgba(94, 122, 159, 0.95);
+}
+.console .console--cursor.ease-in {
+    -webkit-animation:cursor-ease-in .2s;
+    animation:cursor-ease-in .2s
+}
+a {
+    /* font-weight:700; */
+    text-decoration:none;
+    color:#ff5852;
+    -webkit-transition:height;
+    transition:height;
+    -webkit-transition-duration:.3s;
+    transition-duration:.3s
+}
+a::selection {
+    /*background: #f4f7f2;*/
+    text-shadow: none;
+}
+a:after {
+    position:absolute;
+    content:'';
+    left:0;
+    right:13px;
+    bottom:0;
+    background:#f4f7f2;
+    height:0;
+    z-index:-1;
+    -webkit-transition:height, opacity;
+    transition:height, opacity;
+    -webkit-transition-duration:.3s;
+    transition-duration:.3s;
+    opacity:0
+}
+a:active, a:hover, a:visited {
+    color:#ff5852
+}
+a:active:after, a:hover:after {
+    opacity:1;
+    height:6px
+}
+.hide {
+    display:none
+}
+@-webkit-keyframes word-animate-in {
+    0%, 20% {
+     /*background:#35343f;
+      color:#ecefea*/
+    }
+    100% {
+      /*background:#35343f;
+      color:#ecefea*/
+    }
+}
+@keyframes word-animate-in {
+    0%, 20% {
+      /*background:#35343f;
+      color:#ecefea*/
+    }
+    100% {
+     /* background:#35343f;
+      color:#ecefea*/
+    }
+}
+@-webkit-keyframes cursor-animation {
+    0% {
+        opacity:1
+    }
+    50% {
+        opacity:0
+    }
+    100% {
+        opacity:1
+    }
+}
+@keyframes cursor-animation {
+    0% {
+        opacity:1
+    }
+    50% {
+        opacity:0
+    }
+    100% {
+        opacity:1
+    }
+}
+@-webkit-keyframes cursor-ease-in {
+    0% {
+        margin-left:-10px;
+        width:8px
+    }
+    100% {
+        margin-left:0;
+        width:4px
+    }
+}
+@keyframes cursor-ease-in {
+    0% {
+        margin-left:-10px;
+        width:8px
+    }
+    100% {
+        margin-left:0;
+        width:4px
+    }
+}
+@-webkit-keyframes cursor-intro {
+    0% {
+        margin-right:0;
+        width:300px;
+        opacity:0
+    }
+    100% {
+        margin-right:0;
+        width:4px;
+        opacity:1
+    }
+}
+@keyframes cursor-intro {
+    0% {
+        margin-right:0;
+        width:300px;
+        opacity:0
+    }
+    100% {
+        margin-right:0;
+        width:4px;
+        opacity:1
+    }
+}
+@-webkit-keyframes placeholder-intro {
+    0% {
+        opacity:0
+    }
+    100% {
+        opacity:1
+    }
+}
+@keyframes placeholder-intro {
+    0% {
+        opacity:0
+    }
+    100% {
+        opacity:1
+    }
+}
+@media screen and (max-width:768px) {
+    body {
+        font-size:30px
+    }
+    .console {
+        left:20px;
+        bottom:20px;
+        padding-right:20px;
+        line-height:50px
+    }
+    .console .console--cursor {
+        height:39px;
+        margin-bottom:-7px
+    }
+}

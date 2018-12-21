@@ -1,0 +1,9 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+url: https://dashl.me
+enforce_ssl: dashl.me
+title: Dashell Laryea
+subtitle:
+author: Dashell Laryea
+simple_search: google.com/search
